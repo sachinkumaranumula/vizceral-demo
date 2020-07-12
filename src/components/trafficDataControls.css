@@ -1,0 +1,4 @@
+.traffic-data-options {
+  display: flex;
+  flex-direction: column;
+}
