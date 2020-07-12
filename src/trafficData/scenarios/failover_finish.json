@@ -9,7 +9,7 @@
       "nodes": [],
       "metadata": {},
       "class": "normal",
-      "0": []
+      "connections": []
     },
     {
       "renderer": "region",
@@ -2988,7 +2988,7 @@
       "metadata": {},
       "class": "normal"
     },
-    0
+    {
       "renderer": "region",
       "name": "eu-west-1",
       "displayName": "EU-WEST-1",
@@ -5672,7 +5672,7 @@
       "metadata": {},
       "class": "normal"
     },
-    0
+    {
       "renderer": "region",
       "name": "us-west-2",
       "displayName": "US-WEST-2",
@@ -8645,20 +8645,20 @@
       "metadata": {},
       "class": "normal"
     }
-  0
+  ],
   "connections": [
     {
       "source": "INTERNET",
       "target": "us-west-2",
       "metrics": {
-        "normal": 0.976,
+        "normal": 38716.976,
         "danger": 76.896,
         "warning": 0.96
       },
       "notices": [],
       "class": "normal"
     },
-    0
+    {
       "source": "INTERNET",
       "target": "us-east-1",
       "metrics": {
@@ -8669,18 +8669,18 @@
       "notices": [],
       "class": "normal"
     },
-    0
+    {
       "source": "INTERNET",
       "target": "eu-west-1",
       "metrics": {
-        "normal": 0.322000000004,
+        "normal": 31464.322000000004,
         "danger": 97.60600000000001,
         "warning": 0.006
       },
       "notices": [],
       "class": "normal"
     },
-    0
+    {
       "source": "eu-west-1",
       "target": "us-east-1",
       "metrics": {}
