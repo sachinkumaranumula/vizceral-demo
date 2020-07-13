@@ -1,6 +1,9 @@
-![](https://raw.githubusercontent.com/Netflix/vizceral/master/logo.png)
+# Demo using Scenarios 
+Scenarios available at the App bar(top right) demonstrate traffic shutting over degraded/outage site then failing over to other sites and recovering back while showcasing different features of Vizceral. Switch scenario to see traffic updated. Selecting scenarios in this order exhibits the above usecase (Normal -> Degraded -> Outage -> Failover Begin -> Failover End -> Recovery -> Normal)
+![](./demo.gif)
 
-# Vizceral Example
+# Vizceral
+![](https://raw.githubusercontent.com/Netflix/vizceral/master/logo.png)
 This is a sample application using the [React wrapper](https://github.com/Netflix/vizceral-react) around the [vizceral](https://github.com/Netflix/vizceral) graph.
 For more details about using vizceral in your own projects with your own data, refer to the above repositories.
 
@@ -8,8 +11,8 @@ For more details about using vizceral in your own projects with your own data, r
 1. Get source, install deps, and run demo server.
 
    ```sh
-   git clone git@github.com:Netflix/vizceral-example.git
-   cd vizceral-example
+   git clone git@github.com:sachinkumaranumula/vizceral-demo.git
+   cd vizceral-demo
    npm install
    npm run dev
    ```
